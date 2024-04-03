@@ -1,0 +1,184 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f371b2; /* Color de fondo rosado */
+  }
+  
+  header {
+    background-color: #f8bbd0; /* Color de fondo rosa claro para el encabezado */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  nav {
+    background-color: #e778af; /* Color de fondo rosado más oscuro para el nav */
+}
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos específicos */
+  h1, h2 {
+    color: #333;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+
+  
+  /* Estilos para los botones de navegación */
+  .navigation-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .navigation-buttons button {
+    margin: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #ff80ab; /* Color de fondo rosado claro */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigation-buttons button:hover {
+    background-color: #ff4081; /* Color de fondo rosado más intenso al pasar el mouse */
+  }
+  
+/* Estilos para el contenedor de imágenes */
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar verticalmente el contenido */
+    justify-content: center; /* Centrar horizontalmente el contenido */
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .img-container h1,
+  .img-container h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .image-gallery img {
+    max-width: 70%;
+    height: auto;
+    margin: auto;
+  }
+  .image-gallery2 img {
+    max-width: 70%;
+    height: auto;
+    margin: auto;
+  }
+  .image-gallery3 img {
+    max-width: 70%;
+    height: auto;
+    margin: auto;
+  }
+  .image-gallery4 img {
+    max-width: 70%;
+    height: auto;
+    margin: auto;
+  }
+  .image-carta {
+    text-align: center; /* Centrar horizontalmente la imagen */
+    background-color: transparent; /* Fondo transparente para el contenedor */
+    padding: 20px; /* Espaciado alrededor de la imagen */
+  }
+  .image-carta img {
+    max-width: 70%;
+    height: auto;
+    margin: auto;
+  }
+  /* Estilos para la carta */
+.card {
+    width: 300px;
+    height: 400px;
+    perspective: 1000px; /* Profundidad de la perspectiva */
+  }
+  
+  .card-front, .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; /* Oculta la cara posterior */
+    transition: transform 0.5s; /* Agrega transición suave */
+  }
+  
+  .card-front {
+    background-color: #fde0dc; /* Color de la carta cerrada */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .card-back {
+    background-color: #fff; /* Color de la carta abierta */
+    transform: rotateY(180deg); /* Inicialmente oculta la carta abierta */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilos para texto de la carta */
+  .card-back h1 {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para texto de la carta */
+  .card-back p {
+    margin-bottom: 10px;
+  }
+  /* Estilos para el botón "Abrir" */
+#openBtn {
+    background-color: #ff80ab; /* Color de fondo rosado claro */
+    color: #fff; /* Color del texto */
+    border: none; /* Quitamos el borde */
+    padding: 10px 20px; /* Ajustamos el padding para más espacio alrededor del texto */
+    font-size: 16px; /* Tamaño de fuente */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambiamos el cursor al pasar sobre el botón */
+  }
+  
+  #openBtn:hover {
+    background-color: #ff4081; /* Cambiamos el color al pasar el mouse */
+  }
+  
